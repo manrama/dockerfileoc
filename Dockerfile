@@ -15,6 +15,4 @@ RUN echo '. /etc/apache2/envvars' > /root/run_apache.sh && \
  chmod 777 /root/run_apache.sh
 
 EXPOSE 80
-# Default command
-CMD ["/bin/bash"]
-CMD /root/run_apache.sh
+
